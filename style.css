@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600;800&family=Work+Sans:wght@400;600;700&display=swap'); 
+
+   *{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Work Sans', sans-serif;
+   } 
+       /* nav related style */
+       nav{
+         display: flex;
+         justify-content: space-evenly;
+       }
+       .icon-part-1{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         gap: 60px;
+       }
+   nav{
+     display: flex;
+     height:auto;
+     background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   }
+   .ancor, ul{
+    gap: 80px;
+   }
+   
+   nav img{
+     width: 65px;
+     height: 24px;
+   }
+   .icon-part-2 ul{
+     display: flex;
+   }
+   nav li{
+     list-style: none;
+    
+   }
+   nav a{
+     text-decoration: none;
+     justify-content: space-between;
+   }
+   .btn-primary-1{
+     color: #FFFFFF;
+     border-radius: 48px;
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   border: 0px;
+   width: 133px;
+   height: 54px;
+   /* margin: 20px 25px; */
+   font: 1.25rem;
+   cursor: pointer;
+   }
+   .btn-primary-2{
+     color: #FFFFFF;
+     border-radius: 48px;
+   background: #4EC5F7;
+   border: 0px;
+   width: 133px;
+   height: 54px;
+   /* margin: 20px 25px; */
+   font: 1.25rem;
+   cursor: pointer;
+   }
+   .div-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .header-first-div{
+     width: 50%;
+   }
+   .header-second-div{
+     width: 50%;
+   }
+   .section-container{
+     margin: 0 80px;
+   }
+   .header-image{
+     width: 100%;
+   }
+   .Play-Like-The{
+     font-size: 1.5rem;
+     margin-bottom: 0px;
+   }
+   .goat{
+     font-size: 3rem;
+     margin-top: 5px;
+     margin-bottom: 0px;
+     color: #F948B2;
+   }
+   .first{
+     font-size: 12px;
+     margin-top: 10px;
+   }
+    /* we are gamer section start  */
+   
+    .second-section{
+     display: flex;
+     margin-top:50px ;
+    }
+    .second-section-title{
+     font-size: 2.8rem;
+     color: #F948B2;
+    }
+   
+    /* games section start */
+    /* .games-section{
+     margin: 0px 200px;
+    } */
+    .games-frist-div{
+     display: flex;
+     margin: 0px 100px;
+     gap: 25px;
+    }
+    .game-image{
+     width: 262px;
+   height: 350px;
+    }
+    .game-contaienr{
+     text-align: center;
+    }
+    .game-contaienr h2{
+     font-size: 2rem;
+     margin-top: 70px;
+    }
+    .game-contaienr p{
+     font-size: 14px;
+    }
+    .game-paragraph{
+     margin-bottom: 40px;
+    }
+    .game-header{
+   margin-bottom: 0px;
+    }
+    
+    /* play section start */
+    .play-section{
+     margin: 150px;
+     display: flex;
+     align-items: center;
+    }
+    .play-section img{
+     width: 100%;
+    }
+    .Play-Instantly{
+     font-size: 2rem;
+    }
+    .Play-Instantly-2{
+     font-size: 2rem;
+     color: #FF42A5;
+    }
+    .play-section-paragraph{
+     font-size: 14px;
+     width: 50%;
+     text-align: center;
+    }
+   
+    /* second play secion */
+    .second-play-section{
+   display: flex;
+   margin: 150px;
+   gap: 200px;
+   align-items: center;
+    }
+    .second-play-section img{
+    height: 400px;
+    width: 400px;
+    }
+    .play-section-paragraph-2{
+     font-size: 14px;
+    }
+    
+    /* footer section start */
+    footer{
+      background-color: black;
+      height: 400px;
+    }
+    .footer-title{
+      font-size: 2rem;
+      color: white;
+    }
+    .footer-span{
+      color: #FF42A5;
+      font-size: 2rem;
+    }
+   .footer-icon-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .footer-div{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22rem;
+    margin-bottom: 0px;
+   } 
+   .footer-div-1{
+    width: 50%;
+   margin-left: 22rem;
+   margin-top: 2.8rem;
+   margin-bottom: 0px;
+   } 
+   .footer-div-2{
+    width: 50%;
+   margin-left: 22rem;
+   margin-top: 4rem;
+   margin-bottom: 0px;
+   }
+   .footer-list-part{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+   }
+   .footer-list-part li{
+font-size: 13px;
+   }
+   .footer-list-part{
+    font-size: 13px;
+   }
+   .footer-last-part{
+    color: white;
+    font-size: 13px;
+    margin-left: 33rem;
+    margin-top: 2rem;
+   }
+   /* small play image */
+   .small-img-paly{
+    width: 10rem;
+    position: relative;
+    bottom: 150px;
+    border-radius: 3px;
+border: 3px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+right: 70px;
+   }
+/* card section */
+.card-1{
+  display: flex;
+  align-items: center;
+  border-radius: 19px;
+  background: #FFF;
+  border: 0px;
+  font-size: 26px;
+  margin-bottom: 4rem;
+  gap: 5px;
+}
+.card-section{
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0px 6rem;
+}
+.card{
+  font-size: .8rem;
+}
+.card-1:hover{
+  border-radius: 10px;
+border: 1px solid  #FF42A5;
+}
+
+
+    
+   @media screen and (max-width: 576px){
+     .div-container{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .header-image{
+       width: 300px;
+       /* margin-left: 50px; */
+     }
+      .div-container{
+       margin-left: 50px;
+     } 
+  .icon-part-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0rem;
+    gap: 2px;
+
+   }
+   .icon-part-1, a{
+    font-size: 10px;
+   }
+   
+
+   /* game section */
+   .game-section{
+     display: grid;
+     grid-template-columns:repeat(1, 1fr) ;
+   }
+   .games-frist-div{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+   }
+   
+   /* play section */
+   .play-section{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+   }
+   
+   /* second play secion */
+   .second-play-section{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 20px;
+   }
+   .second-play-section img{
+    height: 200px;
+    width: 200px;
+    }
+    .second-play-section{
+     margin: 5rem;
+    }
+    /* footer section style */
+    footer{
+      width: auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-list-part{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .footer-div{
+      margin-left: 6.3rem;
+      margin-bottom: 0px;
+    }
+     .footer-div-1{
+      margin-left: 6.3rem;
+      margin-bottom: 0px;
+      margin-top: 0px;
+     }
+    .footer-div-2{
+      margin-left: 6.3rem;
+      margin-top: 0px;
+      
+    }
+    footer{
+      height: 600px;
+    }
+    .footer-last-part{
+      margin: auto;
+    }
+   .small-img-paly{
+    width: 5rem;
+    position: relative;
+    bottom: 90px;
+   }
+   .card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    margin-left: 40px;
+
+   }
+   .card-1{
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background: #FFF;
+    border: 0px;
+    font-size: 5px;
+    margin-bottom: 3rem;
+    gap: 5px;
+  }
+  .card{
+    font-size: 10px;
+  }
+
+   }
